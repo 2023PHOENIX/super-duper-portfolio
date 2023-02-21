@@ -39,7 +39,7 @@ function Sidebar() {
       <div>
         <div className="flex justify-center gap-10 px-2 py-1 my-4 bg-gray-200 rounded-full align-center">
           <div>
-            <GoLocation />
+            <GoLocation /> 
           </div>
           <span>Dhaulpur, India</span>
         </div>

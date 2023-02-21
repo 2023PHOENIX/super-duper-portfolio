@@ -10,8 +10,7 @@ const NavItem: React.FunctionComponent<{
   route: string;
 }> = ({ activeItem, name, route, setItem }) => {
   return activeItem !== name ? (
-    <div>
-      <Link href={route}></Link>
+    <Link href={route}>
       <a>
         <span
           onClick={() => {
@@ -22,7 +21,7 @@ const NavItem: React.FunctionComponent<{
           {name}
         </span>
       </a>
-    </div>
+    </Link>
   ) : null;
 };
 
